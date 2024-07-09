@@ -1,0 +1,139 @@
+/* bootstrap button change  */
+.accordion
+{
+    --bs-accordion-btn-icon-width: 2rem !important;
+    
+}
+.accordion-button::after {
+
+    --bs-accordion-btn-icon: url(./image/MainPageImg/AccordionIcon/Icon\ plus.svg) !important;
+}
+.accordion-button:not(.collapsed)::after
+{
+    --bs-accordion-btn-active-icon: url(./image/MainPageImg/AccordionIcon/bx-minus.svg) !important;
+}
+.accordion-button,.accordion-body{
+    width: 75%;
+    padding:0 !important;
+    background-color: transparent !important;
+    font-size: 1.5rem !important;
+    font-family: 'Inter' !important;
+    font-weight: 700;
+    line-height: 26px !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.accordion-body
+{
+    padding: 20PX 0 !important;
+}
+.accordion-button:not(.collapsed)
+{
+    color: var(--DarkPrimary)!important;
+    background-color:transparent !important;
+    box-shadow: none !important;
+}
+
+/* accordion styling  */
+.HH-accordion
+{
+    border-bottom: 2px solid var(--DarkPrimary);
+}
+.HH-item
+{
+    background-color: transparent !important;
+    padding: 4.25rem 0;
+    border-top: 2px solid var(--DarkPrimary) !important;
+}
+
+.month
+{
+    width: max-content;
+    height: max-content;
+    margin-right: 3%;
+    padding: 12px 15px;
+    background-color: var(--DarkPrimary);
+    gap: 10px;
+    color: var( --PrimaryColo);
+}
+.month-h6
+{
+    margin: 0;
+    font-family: 'Inter';
+}
+@media (max-width:1200px) and (min-width:992px)
+{
+    .accordion-button,.accordion-body
+    {
+        font-size: 1.3rem !important;
+    }
+    .HH-item
+    {
+        padding: 3rem 0;
+    }
+}
+@media (max-width:992px)and (min-width:768px)
+{
+    .accordion-button,.accordion-body
+    {
+        font-size: 1.2rem !important;
+    }
+    .HH-item
+    {
+        padding: 2.5rem 0;
+    }
+    .month
+    {
+        padding: 9px 9px;
+    }
+    .month-h6
+    {
+        font-size: 15px;
+    }
+}
+@media (max-width:768px) and (min-width:576px)
+{
+    .accordion-button,.accordion-body
+    {
+        font-size: 1rem !important;
+    }
+    .HH-item
+    {
+        padding: 2rem 0;
+    }
+    .accordion {
+        --bs-accordion-btn-icon-width: 1rem !important;
+    }
+    .month
+    {
+        padding: 8px;
+    }
+    .month-h6
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width:576px) and (min-width:300px)
+{
+
+    .accordion-button,.accordion-body
+    {
+        font-size: 0.8rem !important;
+    }
+    .HH-item
+    {
+        padding: 1.5rem 0;
+    }
+    .accordion {
+        --bs-accordion-btn-icon-width: 1rem !important;
+    }
+    .month
+    {
+        padding: 8px;
+    }
+    .month-h6
+    {
+        font-size: 10px;
+    }
+}

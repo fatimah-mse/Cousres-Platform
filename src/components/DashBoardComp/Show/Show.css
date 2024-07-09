@@ -1,0 +1,99 @@
+.FM-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 7.396% 5.625% !important;
+}
+.FM-CirclePlay-img {
+    margin-bottom: 7.192%;
+}
+.FM-cards .HH-card{
+    height: max-content;
+    width: 71.938%;
+    margin: 0 auto;
+    border: 2px solid #19191C;
+    padding: 4.125rem 4.125rem 3.125rem 4.125rem;
+}
+.FM-cards .HH-cardImg
+{
+    margin-right: 16.79px;
+}
+.FM-cards .HH-cardInfo
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5.22%;
+}
+.FM-cards .HH-cardTitle
+{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    line-height: 26px;
+    margin-bottom: 11;
+    font-weight: 700;
+    color: var(--DarkPrimary);
+}
+.FM-cards .HH-CardP
+{
+    font-family: 'Inter';
+    font-size: 1.125rem;
+    margin-bottom: 0 ;
+    font-weight: 400;
+    line-height:28px;
+    color: #6D6D77;
+}
+.FM-cards .HH-CardText
+{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 49px;
+    color: #6D6D77;
+    margin-top: 5.46%;
+    width: 91.81%;
+}
+.FM-cards .HH-CardText p
+{
+    margin-bottom: 0;
+}
+@media screen and (max-width:1366px){
+    .FM-cards .HH-card{
+        padding: 2rem 3rem ;
+    }
+    .FM-cards .HH-CardText
+    {
+        font-size: 1.5rem;
+        line-height:28px;
+    }
+    .FM-CirclePlay-img {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:1200px) {
+    .FM-cards .HH-card{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .FM-cards .HH-card{
+        width: 100%;
+    }
+    .FM-cards .HH-cardInfo
+    {
+       flex-direction: column;
+       align-items: flex-start;
+       padding-bottom: 20px;
+       border-bottom: 1px solid var(--DarkPrimary);
+    }
+    .FM-cards .HH-cardImg , .FM-CirclePlay-img
+    {
+        margin-bottom: 16.79px;
+    }
+    .FM-cards .HH-cardTitle
+    {
+        font-size: 1.6rem;
+    }
+    .FM-cards .HH-CardText
+    {
+        font-size: 1.125rem;
+    }
+}

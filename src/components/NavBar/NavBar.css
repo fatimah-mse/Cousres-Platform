@@ -1,0 +1,187 @@
+.BA-navbar {
+  transition: .25s ease-in-out;
+}
+.BA-navbar-normal {
+  background-color: transparent;
+  top: 35px !important;
+  padding: 0 12.5% !important;
+  height: 46px;
+}
+.BA-navbar-scroll {
+  background-color: var(--DarkPrimary);
+  padding: 0 12.5% !important;
+    height: 66px;
+}
+.BH-logo {
+  margin-right: 68px !important;
+  font-size: 24px !important;
+  font-weight: 800;
+  font-family: 'Inter';
+  line-height: 29.05px;
+  transition: 0.25s ease-in-out;
+  padding-top:6px !important;
+  padding-bottom: 11px;
+  text-decoration: none;
+
+}
+.BA-img {
+  margin-right: 14px !important;
+  width: 42px;
+  padding-top: 2px !important;
+  padding-bottom: 8px;
+}
+.BH-link {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin-right: 46px;
+  padding: 0 !important;
+  line-height: 21.78px;
+  font-family: 'Inter';
+  padding-top: 11px !important;
+  text-decoration: none;
+}
+/* Hover link color  */
+.BH-logo:hover,.BH-link:hover
+{
+  color: var(--priceCard2) !important;
+}
+.BH-link::after
+{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+}
+.BH-link:hover::after
+{
+  width: 50%;
+  background: var(--priceCard2);
+  transition: all 0.4s ease 0s;
+}
+.BH-link-light , .BH-bg-light {
+  color: var(--PrimaryColo) !important;
+}
+.BH-link-dark , .BH-bg-dark{
+  color: var(--DarkPrimary) !important;
+}
+.BH-nav-btn {
+  min-width: 153px;
+  max-height: 46px;
+  padding: 12px 37px;
+  border: none;
+  transition: 0.25s ease-in-out;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+.BA-nav1 .BH-nav-btn:hover {
+  background-color: var(--priceCard2) !important;
+  transition: 0.25s ease-in-out;
+  border-radius: 10px;
+}
+
+.BH-nav-btn-scroll {
+  background-color: var(--PrimaryColo);
+  color: var(--DarkPrimary);
+}
+.BH-nav-btn-normal {
+  background-color: var(--DarkPrimary);
+  color: var(--PrimaryColo);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .BH-logo 
+  {
+    margin-right: 20px !important;
+  }
+  .BH-link {
+    margin-right: 20px !important;
+    font-size: 1rem !important;
+  }
+  .BH-nav-btn {
+    min-width: min-content;
+    padding: 12px 27px;
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 992px) and (min-width:768px) {
+  .sidebar-BA-navbar-scroll {
+    background-color: var(--DarkPrimary) !important;
+  }
+  .BH-link
+  {
+    margin-right: 0;
+    line-height: normal;
+    padding-top: 22px !important;
+  }
+  .BH-link:hover::after
+  {
+    width: 10%;
+  }
+  .BH-nav-btn {
+    max-width: max-content!important;
+    padding: 12px 27px;
+    font-size: 15px !important;
+  }
+  .sidebar-BA-navbar {
+    background-color: var(--PrimaryColo) !important;
+    backdrop-filter: blur(20px) !important;
+  }
+}
+@media (max-width:768px) and (min-width:576px)
+{
+  .sidebar-BA-navbar-scroll {
+    background-color: var(--DarkPrimary) !important;
+  }
+  .BH-link
+  {
+    margin-right: 0;
+    line-height: normal;
+    padding-top: 22px !important;
+  }
+  .BH-link:hover::after
+  {
+    width: 10%;
+  }
+  .BH-nav-btn {
+    max-width: max-content!important;
+    padding: 12px 27px;
+    font-size: 15px !important;
+  }
+  .sidebar-BA-navbar {
+    background-color: var(--PrimaryColo) !important;
+    backdrop-filter: blur(20px) !important;
+  }
+}
+@media (max-width: 576px) and (min-width:300px) {
+
+  .BH-logo
+  {
+    margin-right: 5px !important;
+    font-size: 18px !important;
+  }
+  .sidebar-BA-navbar-scroll {
+    background-color: var(--DarkPrimary) !important;
+  }
+  .BH-link
+  { 
+    margin-right: 0;
+    line-height: normal;
+    padding-top: 22px !important;
+  }
+  .BH-link:hover::after
+  {
+    width: 10%;
+  }
+  .BH-nav-btn {
+    max-width: max-content!important;
+    padding: 12px 27px;
+    font-size: 15px !important;
+  }
+  .sidebar-BA-navbar {
+    background-color: var(--PrimaryColo) !important;
+    backdrop-filter: blur(20px) !important;
+  }
+}

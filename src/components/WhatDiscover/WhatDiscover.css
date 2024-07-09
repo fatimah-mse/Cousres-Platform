@@ -1,0 +1,328 @@
+.AM-DISCOVER{
+    padding: 8.75% 12.5%;
+    background-color: var( --PrimaryColo);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+/*     gap: 8.5%;*/
+}
+.AM-DISCOVER .div1{
+
+    display: flex;
+    flex-direction: column; 
+    margin-top: 85px;
+    width: 27.8125rem;
+}
+.AM-DISCOVER .div1 p{
+    color: #6D6D77;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Inter';
+    margin-bottom: 62px;
+    width: 22.8125rem;
+}
+.AM-DISCOVER .div1 h2{
+    font-weight: 700;
+    font-size: 3.625rem;
+    font-family: 'Inter';
+    margin-bottom: 28px;
+    line-height: 70.19px;
+    width: 27.8125rem;
+}
+.AM-DISCOVER .div1 button{
+    width: 141px;
+    padding: 16px 36px;
+    color: white;
+    background-color: #19191C;
+    border: 1px solid #19191C;
+}
+.AM-DISCOVER .card1 img ,.AM-DISCOVER .card2 img{
+    width: 100%;
+    padding: 36px;
+}
+
+.AM-DISCOVER .card1 {
+    background-color: white;
+    text-align: center;
+    height: 456px;
+    width: 21.5625rem;
+    margin-top: 141px;
+   
+}
+.AM-DISCOVER .card2{
+    background-color: white;
+    text-align: center; 
+    height: 527px;
+    width: 29.1875rem;
+    
+}
+
+.AM-DISCOVER .img{
+   position: absolute;
+   right: 2.85%;
+   bottom: 7.69%;
+}
+.AM-DISCOVER .cards{
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+    width:52rem;
+    
+}
+@media(max-width:1700px) and (min-width:1200px)
+{
+    .AM-DISCOVER
+    {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .AM-DISCOVER .cards
+    {
+        width: 100%;
+        justify-content: end;
+    }
+    .AM-DISCOVER .div1
+    {
+        margin-top: 0;
+    }
+}
+@media (min-width:992px) and (max-width:1200px)
+{
+    
+    .AM-DISCOVER .div1 h2
+    {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .AM-DISCOVER .div1 p
+    {
+        font-size: 1rem;
+    }
+    .AM-DISCOVER .div1 button
+    {
+        min-width: min-content;
+        padding: 11px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .AM-DISCOVER{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .AM-DISCOVER .img {
+       display: none;
+    }
+    .AM-DISCOVER .div1  {
+        margin-top: 0;
+    }
+    .AM-DISCOVER .cards
+    {
+        width: 100%;
+        justify-content: end;
+        align-items: start;
+    }
+    .AM-DISCOVER .card2 {
+
+        width: max-content;
+        height: max-content;
+    }
+    .AM-DISCOVER .card1 {
+        width: max-content;
+        margin-top: 100px;
+        height: max-content;
+    }
+    .card1 h3,.card2 h3 
+    {
+        margin-bottom: 2.5rem;
+    }
+    .AM-DISCOVER .card1 img, .AM-DISCOVER .card2 img {
+        width: 100%;
+        padding: 26px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .AM-DISCOVER{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .AM-DISCOVER .div1 h2
+    {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .AM-DISCOVER .div1 p
+    {
+        font-size: 0.8rem;
+        line-height: 20px;
+        margin-bottom: 42px;
+    }
+    .AM-DISCOVER .div1 button
+    {
+        min-width: min-content;
+        padding: 11px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .AM-DISCOVER .div1  {
+        margin-top: 0;
+    }
+    .AM-DISCOVER .cards
+    {
+        width: 100%;
+        justify-content: end;
+        align-items: start;
+    }
+    .AM-DISCOVER .card2 {
+
+        width: max-content;
+        height: max-content;
+    }
+    .AM-DISCOVER .card1 {
+        width: max-content;
+        margin-top: 100px;
+        height: max-content;
+    }
+    .card1 h3,.card2 h3 
+    {
+        margin-bottom: 2.5rem;
+    }
+    .AM-DISCOVER .card1 img, .AM-DISCOVER .card2 img {
+        width: 100%;
+        padding: 26px;
+    }
+    .AM-DISCOVER .img {
+        width: 50%;
+    }
+}
+@media (min-width:567px) and (max-width:767px){
+    
+    .AM-DISCOVER .img {
+        width: 50%;
+    }        
+    .AM-DISCOVER{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .AM-DISCOVER .card1 ,.AM-DISCOVER .div1  {
+        margin-top: 0;
+    }
+
+    .AM-DISCOVER .div1 p
+    {
+        font-size: 0.8rem;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+    .AM-DISCOVER .div1 button
+    {
+        width: max-content;
+        padding: 11px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+     .AM-DISCOVER .div1 h2{
+        font-size: 2.2rem;
+        line-height: normal;
+        width: 25rem;
+        margin-bottom: 10px;
+     }
+     .AM-DISCOVER .cards
+     {
+         width: 100%;
+         justify-content: end;
+         align-items: start;
+         gap: 10px;
+     }
+     .AM-DISCOVER .card2 {
+ 
+         width: max-content;
+         height: max-content;
+     }
+     .AM-DISCOVER .card1 {
+         width: max-content;
+         margin-top: 100px;
+         height: max-content;
+     }
+     .card1 h3,.card2 h3 
+     {
+         margin-bottom: 2.5rem;
+         font-size: 1rem;
+     }
+     .AM-DISCOVER .card1 img, .AM-DISCOVER .card2 img {
+         width: 100%;
+         padding: 18px;
+     }
+    
+}
+@media (min-width:300px) and (max-width:566px){
+    .AM-DISCOVER .div1 h2
+    {
+        font-size: 1.5rem;
+        width: 15rem;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .AM-DISCOVER .div1 button
+    {
+        width: max-content;
+        padding: 11px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    
+    .AM-DISCOVER .div1 p
+    {
+        font-size: 0.8rem;
+        line-height: 20px;
+        margin-bottom: 22px;
+        width: 100%;
+    }
+    .AM-DISCOVER .div1  {
+        margin-top: 0;
+    }
+    
+    .AM-DISCOVER .img{
+        width: 70%;
+        right: 0;
+        bottom: 0;
+    }
+    .AM-DISCOVER{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .AM-DISCOVER .cards
+    {
+        width: 100%;
+        justify-content: end;
+        align-items: start;
+        gap: 10px;
+    }
+    .AM-DISCOVER .card2 {
+
+        width: max-content;
+        height: max-content;
+    }
+    .AM-DISCOVER .card1 {
+        width: max-content;
+        margin-top: 50px;
+        height: max-content;
+    }
+    .card1 h3,.card2 h3 
+    {
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+    .AM-DISCOVER .card1 img, .AM-DISCOVER .card2 img {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+}
+

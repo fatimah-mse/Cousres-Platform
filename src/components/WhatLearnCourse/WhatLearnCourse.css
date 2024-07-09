@@ -1,0 +1,315 @@
+.AM-willLearn{
+    background-color: var(--DarkPrimary);
+    padding: 168px 12.5%;
+    display: flex;
+    color: var(--PrimaryColo);
+    position: relative;
+    overflow: hidden;
+    gap: 12px;
+}
+.AM-willLearn .div1 ,.AM-willLearn .parentCard{
+    width: 50%;
+}
+
+.AM-willLearn .parentCard {
+    display: flex;
+    gap: 3rem;
+}
+.AM-willLearn .parentCard .cards .card{
+    background-color: var(--DarkPrimary);
+    border: none;
+    color: var(--PrimaryColo);
+    
+}
+.AM-willLearn .div1 h2{
+    font-size: 3.6rem;
+    padding-bottom: 1rem;
+}
+.AM-willLearn .div1 p ,.AM-willLearn .parentCard .cards .card p{
+    font-size: 18px;
+    color: #EFEFF2;
+    
+}
+.AM-willLearn .div1 .p{
+    width: 67%;
+
+}
+
+.AM-willLearn .parentCard .cards .card  .div{
+    position: relative;
+
+}
+.AM-willLearn .parentCard .cards .card h6{
+    font-size: 18px;
+}
+
+.AM-willLearn .parentCard .cards .card  h3{
+    text-align: center;
+    border: 1px solid white;
+    width: 2rem;
+    height: 2.2rem;
+    
+
+}
+.AM-willLearn .bigCircle, .AM-willLearn .bigSquare{
+    width: 2.8rem ;
+}
+.AM-willLearn .smallCircle , .AM-willLearn .smallSquare{
+    width: 1.7rem;
+}
+@keyframes moveAndDisappear {
+    0% {
+        bottom: 20px;
+        opacity: 1;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.75;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    80% {
+        opacity: 0.25;
+    }
+    90% {
+        bottom: 250px;
+        opacity: 0.1;
+    }
+    100% {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+@keyframes moveAndDisappeartop {
+    0% {
+        top: 90%;
+        opacity: 1;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.75;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    80% {
+        opacity: 0.25;
+    }
+    90% {
+        opacity: 0.1;
+    }
+    100% {
+        top: 70%;
+        opacity: 0;
+    }
+}
+.AM-willLearn  .bigCircle{
+    position: absolute;
+    top: 36.91rem;
+    left: 24.5rem;
+    animation: moveAndDisappeartop 8s infinite;
+    animation-timing-function: ease-in-out;
+}
+.AM-willLearn .bigSquare{
+    position: absolute;
+    top: 30rem;
+    left: 33rem;
+    animation: moveAndDisappeartop 9s infinite;
+    animation-timing-function: ease-in-out;
+}
+.AM-willLearn .smallCircle{
+    position: absolute;
+    top: 34rem;
+    right: 77rem;
+    animation: moveAndDisappeartop 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+.AM-willLearn .smallSquare{
+    position: absolute;
+    bottom: 4rem;
+    left: 15rem;
+    animation: moveAndDisappear 7s infinite;
+    animation-timing-function: ease-in-out;
+}
+@media (min-width:992px) and (max-width:1200px){
+    .AM-willLearn{
+        padding: 150px 12.5%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .AM-willLearn .bigCircle {
+        top: 48.9rem;
+        left: 19rem;
+    }
+    .AM-willLearn .bigSquare {
+        top: 43.4rem;
+        left: 31rem;
+    }
+    .AM-willLearn .smallCircle {
+        top: 46.9rem;
+        left: 41rem;
+    }
+    .AM-willLearn .smallSquare {
+        left: 7rem;
+    }
+    .AM-willLearn .div1 .p {
+        width: 80%;
+        text-align: center;
+        margin-left: 72px;
+    }
+    .AM-willLearn .div1, .AM-willLearn .parentCard {
+        width: 100%;
+    }
+    .AM-willLearn .div1 h2{
+        text-align: center;
+    }
+
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .AM-willLearn{
+        padding: 150px 12.5%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .AM-willLearn .div1 .p {
+        width: 80%;
+        text-align: center;
+        margin-left: 72px;
+    }
+    .AM-willLearn .div1, .AM-willLearn .parentCard {
+        width: 100%;
+    }
+    .AM-willLearn .div1 h2{
+        text-align: center;
+    }
+
+    .AM-willLearn .bigCircle {
+        top: 54.5rem;
+        left: 18rem;
+    }
+    .AM-willLearn .bigSquare {
+        top: 47.3rem;
+        left: 26rem;
+    }
+    .AM-willLearn .smallSquare {
+        left: 6rem;
+    }
+    .AM-willLearn .smallCircle {
+        top: 50rem;
+        right: 11rem;
+    }
+    }
+
+@media (min-width:567px) and (max-width:767px){
+    .AM-willLearn .div1, .AM-willLearn .parentCard {
+        width: 100%;
+    }
+    .AM-willLearn{
+        flex-direction: column;
+        gap: 20px;
+    }.AM-willLearn .div1 p{
+        text-align: center;
+    }
+    .AM-willLearn .bigCircle {
+        top: 63.7rem;
+        left: 13rem;
+    }
+    .AM-willLearn .bigSquare {
+        top: 58.3rem;
+        left: 20rem;
+
+        
+    }
+    .AM-willLearn .smallSquare {
+        bottom: 4rem;
+        left: 5rem;
+    }
+    .AM-willLearn .smallCircle {
+        right: 6rem;
+        top: 62rem;
+    }
+    .AM-willLearn .div1 .p {
+        width: 100%;
+    }
+    .AM-willLearn .div1 h2 {
+        text-align: center;
+    }
+    
+
+}
+@media (min-width:300px) and (max-width:566px){
+    .AM-willLearn .div1, .AM-willLearn .parentCard {
+        width: 100%;
+    }
+    .AM-willLearn{
+        flex-direction: column;
+        gap: 20px;
+    }.AM-willLearn .div1 p{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .AM-willLearn .bigCircle {
+        top: 64.3rem;
+        left: 6rem;
+    }
+    .AM-willLearn .bigSquare {
+        top: 60.3rem;
+        left: 12rem;
+    }
+    .AM-willLearn .smallSquare {
+        left: 16rem;
+        bottom: 1rem;
+    }
+    .AM-willLearn .smallCircle {
+        top: 61rem;
+        right: 14rem;
+    } 
+    .AM-willLearn .div1 h2 {
+        font-size: 1.6rem;
+    }
+    
+    .AM-willLearn .div1 .p {
+        width: 100%;
+    }
+    .AM-willLearn .parentCard .cards .card p{
+        font-size: 0.7rem;
+    }
+    .AM-willLearn .parentCard {
+        flex-wrap: wrap;
+    }
+}
+
+
+

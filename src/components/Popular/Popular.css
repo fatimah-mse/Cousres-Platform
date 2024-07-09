@@ -1,0 +1,110 @@
+.BA-Article {
+  padding: 0 12.5% !important;
+}
+.BA-Article .styles {
+  padding-top: 8.75% !important;
+  padding-left: 6.3% !important;
+}
+.BA-Article .styles p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6d6d77;
+  line-height: normal;
+
+  max-width: 952px;
+}
+.BA-Article .styles p:first-of-type {
+  margin-bottom: 28px;
+}
+.BA-Article .styles .BA-Popular {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8.75% !important;
+}
+.BA-Article .styles .BA-Popular .image {
+  display: flex;
+}
+
+.BA-Article .styles .BA-Popular img:first-of-type {
+  margin-right: 20px;
+  width: 223px;
+
+  height: 302px;
+}
+.BA-Article .styles .BA-Popular img:last-of-type {
+  height: 302px;
+  width: 243px;
+
+  margin-top: 104px;
+  margin-right: 60px;
+}
+
+.BA-Article .styles .BA-Popular1 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #19191c;
+  margin-bottom: 28px;
+}
+.BA-Article .styles .BA-Popular1 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6d6d77;
+  max-width: 661px;
+  line-height: normal;
+}
+@media (max-width: 1200px) {
+  .BA-Article .styles .BA-Popular1 h1 {
+    font-size: 2.2rem;
+  }
+  .BA-Article .styles .BA-Popular1 p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .BA-Article .styles p {
+    max-width: 400px;
+    line-height: normal;
+    font-size: 1rem;
+  }
+  .BA-Article .styles .BA-Popular {
+    margin-top: 70px;
+  }
+
+  .BA-Article .styles .BA-Popular1 h1 {
+    font-size: 2rem;
+    max-width: 400px;
+  }
+  .BA-Article .styles .BA-Popular .image {
+    gap: 20px;
+  }
+
+  .BA-Article .styles .BA-Popular .image img {
+    margin-right: 0;
+  }
+
+  .BA-Article .styles .BA-Popular {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .BA-Article .styles .BA-Popular img:last-of-type {
+    margin-top: 0;
+  }
+}
+@media (max-width: 550px) {
+  .BA-Article .styles .BA-Popular .image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .BA-Article .styles .BA-Popular .image img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .BA-Article .styles .BA-Popular1 h1 {
+    font-size: 1.8rem;
+  }
+  .BA-Article .styles p {
+    font-size: 0.8rem;
+  }
+}

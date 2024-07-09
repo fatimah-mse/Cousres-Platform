@@ -1,0 +1,41 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* main page color  */
+  --PrimaryColo:#EFEFF2; /* same in section 3 & 9  */
+  --DarkPrimary:#19191C; /* footer and section  */
+  --MainCard1 :#DEEFE4 ;/* same in Courses page card */
+  --MainCard2 : #D1D4F8;
+  --MainCard3:#EFDEEE;/* same in Courses page card */
+  --MainCard4:#F3F3D7 ;/*  same in Courses page card */
+  --SecondColor:#FBFBFC; /* in section2 and card same in Courses page card1  price  */
+  --MainSection8 :#DEEFE4;/* same in Courses page card3 price    */
+  /* end main color  */
+  /* courses page color */
+  --priceCard2 :#504DEE;
+  /* no color needed in Blog page else black #000
+   primary color and black in Article page  */
+   /* Dash  */
+  --primaryColorDash: #FFFBFE;
+  --primaryColorSide:#F5F7F9;
+  --SecondColorDash:#504DEE;/* for button and icon  */
+  --buttonChange: #1F1C39;
+  --inputColor:#F8FAFC; /* input and textarea regist */
+  --inputColorManagement:#504dee1f; /* input and textarea regist */
+  --TableHeadColor:#ACACAC; 
+  --lableColor: #6F7482;
+  --lableRequire: #ED0131;
+  --formBTN: #FEFAFA;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom left, var(--SecondColorDash), var(--SecondColorDash), var(--primaryColorSide), var(--buttonChange), var(--buttonChange) );
+  border-radius: 100px;
+}

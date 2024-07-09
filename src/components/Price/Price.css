@@ -1,0 +1,294 @@
+.OE_price {
+    background-color: var(--DarkPrimary);
+    padding: 8.75% 12.5%;
+    font-family:" Inter";
+}
+
+.OE_price_cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.OE_price_h1 {
+    font-size: 3.625rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 70.19px;
+    color: var(--SecondColor);
+    width: max-content;
+    margin-bottom: 4.25rem;
+}
+
+.OE_item1 {
+    width: 30.4rem;
+    background-color: var(--SecondColor);
+    color: var(--DarkPrimary);
+    margin-top: 5.47%;
+    padding: 3rem 4.25rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10.25rem;
+    
+}
+
+.OE_item2 {
+    width: 30.2rem;
+    height: 67.7%;
+    background-color: var(--priceCard2);
+    color: var(--SecondColor);
+    padding: 3rem 4.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 7.25rem;
+    margin-bottom: 5.47%;
+}
+
+.OE_item3 {
+    width: 30.4rem;
+    margin-top: 5.47%;
+    background-color: var(--MainCard1);
+    color: var(--DarkPrimary);
+    padding: 3rem 4.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.OE_price_h2 {
+    font-family: 'Inter';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.15px;
+    text-align: left;
+
+}
+
+.OE_ul {
+    list-style-type: square;
+    padding-left: 1rem;
+}
+
+.OE_li_1 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 22px;
+    margin-top: 2.93rem;
+}
+
+.OE_li_2,
+.OE_li_3,
+.OE_li_4,
+.OE_li_5 {
+    font-family:'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.OE_price1 {
+    font-family:' Inter';
+    font-size:24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+.OE_item1 .OE_price1 {
+    color: #6D6D77;
+}
+
+.OE_item3 .OE_price1 {
+    color: #6D6D77;
+}
+
+.OE_price2 {
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 3.625rem;
+    font-weight: 700;
+    line-height: 70.19px;
+    text-align: left;
+}
+
+.OE_price_button {
+    max-width: 163px;
+    padding: 16px 36px;
+    margin-top: 18px;
+    border: none;
+    font-size:1.5rem ;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.OE_item1 .OE_price_button,.OE_item3 .OE_price_button{
+    color: var(--SecondColor);
+    background-color: var(--DarkPrimary);
+}
+
+.OE_item2 .OE_price_button{
+    color:var(--priceCard2);
+    background-color: var(--SecondColor);
+}
+
+@media (max-width:1548px) and (min-width:1200px)
+{
+    .OE_item1,.OE_item3,.OE_item2
+    {
+        padding: 2rem;
+        
+    }
+    .OE_price2
+    {
+        font-size: 2.5rem !important;
+    }
+    
+}
+@media (max-width:1200px) and (min-width:992px)
+{
+    .OE_price_h1{
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .OE_price_cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }    
+    .OE_price_h2 
+    {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .OE_price2
+    {
+        font-size: 2.2rem !important;
+        line-height: normal;
+    }
+    .OE_item1,.OE_item2,.OE_item3 {
+        width: 25rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 2rem;
+        gap: 3.5rem;
+    }
+}
+@media (max-width:992px) and (min-width:768px)
+{
+    .OE_price_h1{
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .OE_price_cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }    
+    .OE_price_h2 
+    {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .OE_price2
+    {
+        font-size: 2.2rem !important;
+        line-height: normal;
+    }
+    .OE_item1,.OE_item2,.OE_item3 {
+        width: 25rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 2rem;
+        gap: 3.5rem;
+    }
+}
+@media (max-width:768px) and (min-width:567px)
+{
+    .OE_price_h1{
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .OE_price_cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }    
+    .OE_price_h2 
+    {
+        font-size: 2.2rem;
+        line-height: normal;
+    }
+    .OE_price2
+    {
+        font-size: 2.2rem !important;
+        line-height: normal;
+    }
+    .OE_item1,.OE_item2,.OE_item3 {
+        width:100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 2rem;
+        gap: 3.5rem;
+    }
+}
+@media (max-width:567px) and (min-width:300px)
+{
+.OE_price_h1{
+    font-size: 1.5rem;
+    line-height: normal;
+}
+.OE_price_cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}    
+.OE_price_h2 
+{
+    font-size: 1.5rem;
+    line-height: normal;
+}
+.OE_price2
+{
+    font-size: 1.5rem !important;
+    line-height: normal;
+}
+.OE_item1,.OE_item2,.OE_item3 {
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.OE_li_2, .OE_li_3, .OE_li_4, .OE_li_5,.OE_li_1  {
+    font-size: 0.8rem;
+    margin: 0;
+}
+.OE_price_button {
+    max-width: 163px;
+    padding: 11px;
+    /* margin-top: 0.8rem; */
+    border: none;
+    font-size: 0.8rem;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 26px;
+}
+}
+
+
